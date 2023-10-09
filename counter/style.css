@@ -1,0 +1,46 @@
+body {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 500px;
+  margin: 200px auto;
+  align-items: center;
+  justify-content: center;
+}
+
+#title {
+  text-align: center;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+#number {
+  text-align: center;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#increase {
+  margin-left: 10px;
+  padding-inline: 20px;
+  padding-block: 5px;
+  background-color: green;
+  border: 0;
+  color: white;
+}
+
+#decrease {
+  margin-left: 10px;
+  padding-inline: 20px;
+  padding-block: 5px;
+  background-color: red;
+  border: 0;
+  color: white;
+}
