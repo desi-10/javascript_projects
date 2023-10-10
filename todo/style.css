@@ -1,0 +1,20 @@
+body {
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+#input-el {
+  padding: 4px;
+}
+
+#btn {
+  padding-inline: 10px;
+  padding-block: 4px;
+}
+
+.todos {
+  text-align: center;
+  margin-top: 20px;
+}
